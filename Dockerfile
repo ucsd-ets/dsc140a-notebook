@@ -1,4 +1,4 @@
-ARG BASE_TAG=latest
+ARG BASE_TAG=2022.2-stable
 FROM ucsdets/scipy-ml-notebook:$BASE_TAG
 LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 COPY requirements.txt /tmp/requirements.txt
