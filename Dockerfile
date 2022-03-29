@@ -6,3 +6,4 @@ USER jovyan
 RUN pip install --force-reinstall tensorflow-gpu==2.8
 RUN pip install --requirement /tmp/requirements.txt
 RUN pip install --upgrade tensorflow-probability
+USER jovyan
